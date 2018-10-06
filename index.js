@@ -1,3 +1,7 @@
 var recipes = {};
 
-recipes.assign({}, { milk: '2 cups' })
+function updateObjectWithKeyAndValue(obj, key, value) {
+ 
+  return Object.assign({}, obj, { [key]: value })
+}
+
