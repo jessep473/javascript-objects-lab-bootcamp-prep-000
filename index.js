@@ -1,3 +1,3 @@
 var recipes = {};
 
-recipes.assign({}, { foo: 'bar' })
+recipes.assign({}, { milk: '2 cups' })
