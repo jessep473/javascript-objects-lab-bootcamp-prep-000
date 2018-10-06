@@ -17,3 +17,6 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
  
  
 destructivelyUpdateObjectWithKeyAndValue(recipes, 'flour', '3 cups')
+
+
+delete recipes.chocolate;
